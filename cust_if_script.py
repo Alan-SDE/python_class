@@ -2,7 +2,7 @@ def main():
     # simple calculator to transform number to letter grade
 
     # prompt for number score
-    score = int(input("What is your score (1-100)"))
+    score = int(input("What is your score (1-100)\n"))
 
     # validate input
     if 1 > score or score > 100:
