@@ -17,7 +17,7 @@ def main():
             print("you received a B")
         elif score > 70:
             print("you received a C")
-        elif score > 70:
+        elif score > 60:
             print("you received a D")
         else:
             print("you received an F")
