@@ -11,13 +11,13 @@ def main():
         print("Invalid number, has to be between 1 and 100")
     else:
         # print letter grade based on number
-        if score > 90:
+        if score >= 90:
             print("you received an A")
-        elif score > 80:
+        elif score >= 80:
             print("you received a B")
-        elif score > 70:
+        elif score >= 70:
             print("you received a C")
-        elif score > 60:
+        elif score >= 60:
             print("you received a D")
         else:
             print("you received an F")
