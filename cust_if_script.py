@@ -1,7 +1,10 @@
 def main():
-    #simple calculator to transform number to letter grade
+    # simple calculator to transform number to letter grade
 
+    # prompt for number score
     score = int(input("What is your score (1-100)"))
+
+    # print letter grade based on number
     if score > 90:
         print("you received an A")
     elif score > 80:
