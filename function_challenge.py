@@ -40,3 +40,7 @@ def upper_and_lower(phrase):
     print(f"There are {upper_count} upper-case letters and {lower_count} lower-case letters")
 
 
+max_number(54, 83, 30)
+sum_numbers([8, 2, 3, 0, 7])
+multiply_numbers([8, 2, 3, -1, 7])
+upper_and_lower('The quick Brow Fox')
